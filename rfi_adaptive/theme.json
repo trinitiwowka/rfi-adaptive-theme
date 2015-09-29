@@ -1,0 +1,41 @@
+{
+    "name": "rfi_adaptive",
+    "cssFiles": [ "bootstrap.min.css", "theme.css", "style.css" ],
+    "jsFiles" : [ "bootstrap.min.js",
+                  "jquery.mask.min.js",
+                  "page_modifications.js"
+                ],
+    "languageSwitcherStyle": "dropdown",
+    "cvcRcSwitcherStyle": null,
+    "formOptionalInputs": [ "email", "phone" ],
+    "layout": [ "page",
+                "HEADER_ADAPTIVE",
+                "INVOICE_ADAPTIVE",
+                "FORM_ADAPTIVE",
+                "WINDOW_SIZE_TRIGGER",
+                "FOOTER_ADAPTIVE"
+              ],
+    "payTransferLayout": [ "page",
+                "HEADER_ADAPTIVE",
+                "PAYTRANSFER_FORM_ADAPTIVE",
+                "WINDOW_SIZE_TRIGGER",
+                "FOOTER_ADAPTIVE"
+              ],
+    "successLayout": [ "page",
+                "HEADER_ADAPTIVE",
+                "SUCCESS_ADAPTIVE",
+                "SUCCESS_TRIGGER",
+                "WINDOW_SIZE_TRIGGER",
+                "FOOTER_ADAPTIVE"
+                     ],
+    "errorLayout": [ "page",
+                "HEADER_ADAPTIVE",
+                "ERROR_ADAPTIVE",
+                "ERROR_TRIGGER",
+                "WINDOW_SIZE_TRIGGER",
+                "FOOTER_ADAPTIVE"
+                   ],
+    "acquireLayout": "ACQUIRE_TRIGGER",
+    "fragments": {
+    }
+}

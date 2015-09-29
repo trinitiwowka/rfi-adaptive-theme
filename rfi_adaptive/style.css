@@ -1,0 +1,171 @@
+.card_block {
+	width: 767px;
+	height: 320px;
+	background: url('card_fon.png') no-repeat center top;
+}
+.card_block_submit {
+	float: none;
+}
+.textinput {
+	padding-top: 35px;
+}
+.cart_cvc2 {
+	position: absolute;
+	top: 143px;
+	left: 445px;
+}
+.btn {
+	background: #f84d5d;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 1px;
+}
+.info {
+	color: #b9b9b9;
+	font-size: 10px;
+}
+.error {
+	color: #f84d5d;/*font-size: 12px;*/
+}
+.card-input {
+	padding: 5px 15px 5px 45px;
+	height: auto;
+	font-size: 24px;
+	border-radius: 5px;
+	color: #959595;
+	line-height:30px;
+}
+.input-cvc2 {
+	background: #fff url('ico-cvc2.png') no-repeat left 15px top 11px;
+}
+.input-card {
+	padding: 5px 15px 5px 45px;
+	background: #fff url('ico-num2.png') no-repeat left 10px top 11px;
+}
+.input-card_holder {
+	padding: 5px 15px 5px 45px;
+	background: #fff url('ico-name2.png') no-repeat left 16px top 10px;
+}
+.input-exp_month, .input-exp_year {
+	padding: 5px 15px 5px 45px;
+	background: #fff url('ico-date2.png') no-repeat left 13px top 11px;
+}
+.input-email input {
+	padding: 6px 15px 6px 0px;
+}
+.input-help {
+	margin: 0px 0px 0px 8px;
+	display: block;
+	color: #b9b9b9;
+	/*font-size: 0.9em;*/
+	font-size: 12px;
+	position: absolute;
+	top: 80px;
+}
+.pay_big {
+	display: block;
+	font-size: 26px;
+}
+.pay_small {
+	display: none;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 22px;
+}
+.input-error {
+	border: 1px solid red;
+}
+.span-error {
+	color: red;
+}
+ input::-ms-clear {
+ display: none;
+}
+
+@media (min-width: 992px) {
+.card_block {
+	left: 50%;
+	margin-left: -383px;
+}
+.card_block > div {
+	left: 70px;
+	top: -5px;
+	width: 55%;
+}
+.cart_cvc2 {
+	width: 150px;
+}
+.card_block_submit {
+	width: 383px;
+	margin: auto;
+	clear:both;
+}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+.footer {
+ //display: block;
+}
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 991px) {
+.card_block {
+	width: auto;
+	height: auto;
+	background: none;
+}
+.card_block div div .col-xs-4{
+	width: 30%;
+	margin-left: 5% !important;
+}
+.card_block div div .col-xs-4:first-child{
+	margin-left: 0 !important;
+}
+.cart_cvc2 {
+	margin-top: 0px;
+	margin-left: 0px;
+	position: static;
+}
+.help-cvc2 {
+    position: static;
+    margin-top: -33px;
+}
+.footer {
+	display: block;
+}
+.card_block_submit {
+	width: auto;
+}
+.textinput {
+	padding: 0px;
+}
+.textinput input {
+	height: 50px;
+	background-position: left 15px top 14px;
+	font-size: 24px;
+	margin-bottom: 35px;
+}
+#PayForm_card {
+	background-position: left 11px top 14px;
+}
+.input-email {
+	display: none;
+}
+.input-help {
+	top:52px;
+}
+.pay_small {
+	display: block;
+}
+.pay_big {
+	display: none;
+}
+.btn {
+	margin: 10px 0px 0px 0px !important;
+}
+}

@@ -1,0 +1,680 @@
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('PT Sans'), local('PTSans-Regular'), url(/css/fonts/ptsans/yrzXiAvgeQQdopyG8QSg8Q.woff) format('woff');
+}
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('PT Sans Bold'), local('PTSans-Bold'), url(/css/fonts/ptsans/g46X4VH_KHOWAAa-HpnGPhsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+	font-family: 'Droid Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Droid Sans'), local('DroidSans-Regular'), url(/css/fonts/droid-sans/DroidSans.woff) format('woff');
+}
+@font-face {
+	font-family: 'Droid Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(/css/fonts/droid-sans/DroidSans-Bold.woff) format('woff');
+}
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+a {
+	color: #f84d5d;
+}
+header {
+	margin-top: 10px;
+}
+header .info {
+	margin-top: 4px;
+	padding-left: 50px;
+	padding-top: 13px;
+	background: url('ico_operator.png') no-repeat left top 10px;
+	height: 54px;
+}
+header .info p {
+	font-size: 15px;
+	color: #313131;
+	margin-bottom: 0px;
+}
+header .info .supportlink {
+	font-size: 15px;
+	color: #f84d5d;
+	text-decoration: underline;
+}
+header .info .phone {
+	font-size: 15px;
+	color: #f84d5d;
+	font-weight: bold;
+}
+.info-bottom {
+	margin-top: 0px;
+	padding-left: 50px;
+	padding-top: 3px;
+	padding-bottom: 30px;
+	background: url('ico_operator.png') no-repeat left top;
+}
+.info-bottom p {
+	font-size: 15px;
+	color: #313131;
+	margin-bottom: 0px;
+}
+.info-bottom .supportlink {
+	font-size: 15px;
+	color: #f84d5d;
+	text-decoration: underline;
+}
+.supportlink-container {
+	display: flex;
+	align-items: center;
+	height:42px;
+}
+.info-bottom .phone {
+	font-size: 15px;
+	color: #f84d5d;
+	font-weight: bold;
+}
+.invoice-line {
+	background: #f84d5d;
+	color: #fff;
+	margin-top: 10px;
+}
+.invoice-line p {
+	margin: 0px 10px;
+}
+.invoice-line .invoice-info {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 5px;
+	margin-top: 12px;
+}
+.invoice-line .invoice-summ {
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 30px;
+}
+.invoice-line .invoice-summ .summ {
+	font-size: 38px;
+	color: #fff;
+}
+.invoice-line .invoice-from {
+	font-weight: bold;
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+.invoice-line .invoice-from.success, .invoice-line .invoice-from.error {
+	font-weight: bold;
+	color: #fff;
+	font-size: 48px;
+	line-height: 48px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.back-to-shop a {
+	color: #9f9f9f;
+	font-size: 15px;
+	text-decoration: underline;
+}
+.choice-method {
+	color: #313131;
+	font-size: 20px;
+}
+.pay-choice-head {
+	margin-top: 15px;
+}
+.pay-method.other-pay-method {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px;
+}
+.pay-method.spg {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px;
+}
+.pay-method.spg_test {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px;
+}
+.pay-method.ym {
+	background: url('/ut/rfi_adaptive/ico_ym.png') no-repeat center left 15px;
+}
+.pay-method.mc {
+	background: url('/ut/rfi_adaptive/ico_phone.png') no-repeat center left 15px;
+}
+.pay-method.wm {
+	background: url('/ut/rfi_adaptive/ico_wm.png') no-repeat center left 15px;
+}
+.pay-method.friend {
+	background: url('/ut/rfi_adaptive/ico_email.png') no-repeat center left 15px;
+}
+.pay-method.qiwi {
+	background: url('/ut/rfi_adaptive/ico_qiwi.png') no-repeat center left 15px;
+}
+.pay-method.terminal {
+	background: url('/ut/rfi_adaptive/ico_terminal.png') no-repeat center left 15px;
+}
+.pay-method.sms {
+	background: url('/ut/rfi_adaptive/ico_sms.png') no-repeat center left 10px;
+}
+.footer {
+	font-size: 15px;
+	color: #7e7e7e;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.footer p {
+	margin: 0px;
+}
+.footer a {
+	text-decoration: underline;
+}
+.footer .politics a {
+	color: #7e7e7e;
+}
+.footer .security {
+	color: #313131;
+}
+.footer .security a {
+	color: #f84d5d;
+}
+.footer .copyright a {
+	color: #f84d5d;
+}
+.footer .copyright {
+	margin-top: 7px;
+}
+.footer .cert-logo {
+	white-space: nowrap;
+}
+.footer .cert-logo img:first-child {
+	margin-left: -150px;
+}
+.mobile-help {
+	color: #8b8b8b;
+	font-size: 30px;
+	margin-top: 25px;
+}
+.mobile-help p {
+	line-height: 30px;
+}
+.mobile-help a {
+	color: #f84d5d;
+	text-decoration: underline;
+}
+.mobile-help .mini {
+	color: #8b8b8b;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+@media (max-width: 768px) {
+header .logo {
+	text-align: center;
+}
+header .logo a {
+	display: inline-block;
+}
+.footer {
+	display: none;
+}
+.pay-method {
+	font-size: 1.7em;
+	padding: 15px 10px 15px 70px;
+	border: 1px solid #f2f2f2;
+	cursor: pointer;
+	background: url('/ut/rfi_adaptive/arrow.png') no-repeat center right 15px;
+}
+.inputs {
+	display: none;
+	margin-top: 25px;
+}
+.inputs .textinput {
+	margin: 10px 0px;
+}
+.inputs .textinput .form-control {
+	border-radius: 1px;
+	font-size: 35px;
+	height: auto;
+	text-align: center;
+	color: #959595;
+	border: 1px solid #d9d9d9;
+}
+.inputs .textinput .form-control:focus {
+	border-color: #d9d9d9;
+}
+.inputs .btn {
+	background: #f84d5d;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 1px;
+	height: auto;
+	border: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.inputs .btn:active, .inputs .btn:focus {
+	border: none;
+}
+.pay-methods .container {
+	width: 100%;
+}
+.pay-method.other-pay-method {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.spg {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.spg_test {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.ym {
+	background: url('/ut/rfi_adaptive/ico_ym.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.mc {
+	background: url('/ut/rfi_adaptive/ico_phone.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.wm {
+	background: url('/ut/rfi_adaptive/ico_wm.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.friend {
+	background: url('/ut/rfi_adaptive/ico_email.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.qiwi {
+	background: url('/ut/rfi_adaptive/ico_qiwi.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.terminal {
+	background: url('/ut/rfi_adaptive/ico_terminal.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.sms {
+	background: url('/ut/rfi_adaptive/ico_sms.png') no-repeat center left 10px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.active {
+	background-color: #eee;
+}
+.btn.disabled {
+	background: #c6c6c6;
+}
+.btn {
+	margin-bottom: 15px;
+}
+.form-info {
+	font-size: 20px;
+	line-height: 20px;
+}
+.form-info input[type="checkbox"] {
+	width: 25px;
+	height: 25px;
+	margin-left: -30px;
+}
+.form-info label {
+	padding-left: 30px;
+}
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 992px) {
+header .logo {
+	text-align: center;
+}
+header .logo a {
+	display: inline-block;
+}
+.footer {
+	display: none;
+}
+.pay-method {
+	font-size: 2em;
+	padding: 15px 10px 15px 70px;
+	border: 1px solid #f2f2f2;
+	cursor: pointer;
+}
+.inputs {
+	display: none;
+	margin-top: 25px;
+}
+.inputs .textinput {
+	margin: 10px 0px;
+}
+.inputs .textinput .form-control {
+	border-radius: 1px;
+	font-size: 35px;
+	height: auto;
+	text-align: center;
+	color: #959595;
+	border: 1px solid #d9d9d9;
+}
+.inputs .textinput .form-control:focus {
+	border-color: #d9d9d9;
+}
+.inputs .btn {
+	background: #f84d5d;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 1px;
+	height: auto;
+	border: none;
+	margin-top: 15px;
+}
+.inputs .btn:active, .inputs .btn:focus {
+	border: none;
+}
+.pay-methods .container {
+	width: 100%;
+}
+.pay-method.other-pay-method {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.spg {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.spg_test {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.ym {
+	background: url('/ut/rfi_adaptive/ico_ym.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.mc {
+	background: url('/ut/rfi_adaptive/ico_phone.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.wm {
+	background: url('/ut/rfi_adaptive/ico_wm.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.friend {
+	background: url('/ut/rfi_adaptive/ico_email.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.qiwi {
+	background: url('/ut/rfi_adaptive/ico_qiwi.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.terminal {
+	background: url('/ut/rfi_adaptive/ico_terminal.png') no-repeat center left 15px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.sms {
+	background: url('/ut/rfi_adaptive/ico_sms.png') no-repeat center left 10px,  url('/ut/rfi_adaptive/arrow.png') no-repeat center right 25px;
+}
+.pay-method.active {
+	background-color: #eee;
+}
+.btn.disabled {
+	background: #c6c6c6;
+}
+.btn {
+	margin-bottom: 15px;
+}
+.form-info {
+	font-size: 30px;
+	line-height: 30px;
+}
+.form-info input[type="checkbox"] {
+	width: 25px;
+	height: 25px;
+	margin-left: -30px;
+}
+.form-info label {
+	padding-left: 30px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+header .logo {
+	text-align: left;
+}
+.pay-method {
+	font-size: 21px;
+	padding: 40px 10px 40px 70px;
+	border: 1px solid #f2f2f2;
+	cursor: pointer;
+}
+.pay-method.active {
+	border: 1px solid #f96c7a;
+}
+.footer {
+	display: block;
+	margin-top: 80px;
+}
+.inputs {
+	margin-top: 25px;
+	display: block;
+}
+.inputs .textinput {
+	padding: 0px;
+}
+.inputs .textinput .form-control {
+	border-radius: 1px;
+	font-size: 35px;
+	height: auto;
+	text-align: center;
+	color: #959595;
+	border: 1px solid #d9d9d9;
+}
+.inputs .textinput .form-control:focus {
+	border-color: #d9d9d9;
+}
+.inputs .btn {
+	background: #f84d5d;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 1px;
+	height: auto;
+	border: none;
+	margin-top: 15px;
+}
+.inputs .btn:active, .inputs .btn:focus {
+	border: none;
+}
+.pay-method.other-pay-method {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px;
+}
+.pay-method.spg {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px;
+}
+.pay-method.spg_test {
+	background: url('/ut/rfi_adaptive/ico_card.png') no-repeat center left 15px;
+}
+.pay-method.ym {
+	background: url('/ut/rfi_adaptive/ico_ym.png') no-repeat center left 15px;
+}
+.pay-method.mc {
+	background: url('/ut/rfi_adaptive/ico_phone.png') no-repeat center left 15px;
+}
+.pay-method.wm {
+	background: url('/ut/rfi_adaptive/ico_wm.png') no-repeat center left 15px;
+}
+.pay-method.friend {
+	background: url('/ut/rfi_adaptive/ico_email.png') no-repeat center left 15px;
+}
+.pay-method.qiwi {
+	background: url('/ut/rfi_adaptive/ico_qiwi.png') no-repeat center left 15px;
+}
+.pay-method.terminal {
+	background: url('/ut/rfi_adaptive/ico_terminal.png') no-repeat center left 15px;
+}
+.pay-method.sms {
+	background: url('/ut/rfi_adaptive/ico_sms.png') no-repeat center left 10px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}
+.phone-block {
+	padding: 50px 0 50px 0;
+}
+.loader {
+	background: url("/ut/rfi_adaptive/ajax-loader.gif") no-repeat 50px;
+}
+ @-webkit-keyframes preloader {
+ to {
+-webkit-transform: rotate(360deg);
+}
+}
+ @-moz-keyframes preloader {
+ to {
+-moz-transform: rotate(360deg);
+}
+}
+ @-ms-keyframes preloader {
+ to {
+-ms-transform: rotate(360deg);
+}
+}
+ @-o-keyframes preloader {
+ to {
+-o-transform: rotate(360deg);
+}
+}
+ @keyframes preloader {
+ to {
+transform: rotate(360deg);
+}
+}
+.wait-no-sms {
+	color: #848484;
+	font-size: 16px
+}
+.success-iconOFF {
+	background: url('/ut/rfi_adaptive/success-icon.png') no-repeat;
+	background-position: right 20px;
+	margin-right: 10px
+}
+.success-promo img {
+	padding: 10px 0 10px 0;
+}
+.invoice-line.success-page {
+	height: 220px;
+}
+.success-page {
+	margin-top: 50px;
+}
+.succes-smile {
+	background: url('/ut/rfi_adaptive/success-smile.png') no-repeat;
+	background-position: right 20px;
+	margin-right: 10px;
+	height: 150px;
+}
+.error-icon {
+	background: url('/ut/rfi_adaptive/error-icon.png') no-repeat;
+	background-position: right 10px;
+	margin-right: 10px
+}
+.error-promo img {
+	padding: 10px 0 10px 0;
+}
+.invoice-line.error-page {
+	height: 220px;
+}
+.error-page {
+	margin-top: 50px;
+}
+.mrtop30 {
+	margin-top: 30px;
+}
+.errro-message-block {
+	color: #fb9fa7;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.text-bold {
+	font-weight: bold;
+}
+.fs18 {
+	font-size: 18px;
+}
+.fs15 {
+	font-size: 18px;
+}
+.redtext input {
+	overflow: hidden;
+	color: #f84d5d;
+	font-size: 30px;
+	background: #fff;
+	border: 1px solid #f84d5d;
+	position: relative;
+	padding: 31px 45px 37px;
+	width: 100%;
+	text-align: center;
+}
+.note {
+	font-size: 13px;
+	line-height: 26px;
+	color: #848484;
+	display: block;
+	background: url(/ut/rfi_adaptive/none.gif);
+	padding: 0 0 42px;
+}
+.stages {
+	margin: 0;
+	padding-left: 50px;
+	list-style: none;
+}
+.stages li {
+	background: url(/ut/rfi_adaptive/none.gif);
+	padding: 0 0 50px;
+	position: relative;
+	font-size: 16px;
+}
+.stages li:before {
+	content: '';
+	position: absolute;
+	left: -31px;
+	top: 12px;
+	bottom: -12px;
+	border-left: 1px solid #e0e0e0;
+}
+.stages li:after {
+	content: '';
+	position: absolute;
+	left: -40px;
+	top: 2px;
+	background: #e0e0e0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+.stages li.last:before {
+	display: none;
+}
+.pay_big, .pay_small {
+	font-family: 'Droid Sans', 'PT Sans', sans-serif;
+}
+.pay_big {
+	margin-bottom: 15px;
+}
+
+.dropdown {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none #ffffff;
+    border-radius: 5px;
+    bottom: 0;
+    color: #959595;
+		cursor: pointer;
+    font-size: 24px;
+    height: auto;
+    left: 8%;
+    line-height: 30px;
+		opacity: 0;
+    padding: 5px 15px 5px 45px;
+    position: absolute;
+    width: 84%;
+    z-index: 10;
+}
+@media (max-width: 992px) {
+.dropdown {
+    bottom: auto;
+    left: 0;
+    padding: 9px 15px;
+    top: 0;
+    width: 100%;
+}
