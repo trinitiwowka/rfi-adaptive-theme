@@ -29,7 +29,7 @@
 	color: #f84d5d;/*font-size: 12px;*/
 }
 .card-input {
-	padding: 5px 15px 5px 45px;
+	padding: 5px 15px 5px 30px;
 	height: auto;
 	font-size: 24px;
 	border-radius: 5px;
@@ -40,15 +40,15 @@
 	background: #fff url('ico-cvc2.png') no-repeat left 15px top 11px;
 }
 .input-card {
-	padding: 5px 15px 5px 45px;
+	padding: 5px 15px 5px 35px;
 	background: #fff url('ico-num2.png') no-repeat left 10px top 11px;
 }
 .input-card_holder {
-	padding: 5px 15px 5px 45px;
+	padding: 5px 15px 5px 30px;
 	background: #fff url('ico-name2.png') no-repeat left 16px top 10px;
 }
 .input-exp_month, .input-exp_year {
-	padding: 5px 15px 5px 45px;
+	padding: 5px 15px 5px 35px;
 	background: #fff url('ico-date2.png') no-repeat left 13px top 11px;
 }
 .input-email input {
@@ -146,12 +146,13 @@
 }
 .textinput input {
 	height: 50px;
-	background-position: left 15px top 14px;
-	font-size: 24px;
+	background-position: left 8px top 14px;
+	font-size: 14px;
 	margin-bottom: 35px;
 }
 #PayForm_card {
-	background-position: left 11px top 14px;
+	background-position: left 13px top 18px;
+    background-size: 14px;
 }
 .input-email {
 	display: none;
