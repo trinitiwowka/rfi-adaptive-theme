@@ -29,7 +29,7 @@
 	color: #f84d5d;/*font-size: 12px;*/
 }
 .card-input {
-	padding: 5px 15px 5px 30px;
+	padding: 5px 10px;
 	height: auto;
 	font-size: 24px;
 	border-radius: 5px;
@@ -37,7 +37,8 @@
 	line-height:30px;
 }
 .input-cvc2 {
-	background: #fff url('ico-cvc2.png') no-repeat left 15px top 11px;
+	/* background: #fff url('ico-cvc2.png') no-repeat left 15px top 11px; */
+	letter-spacing: 2px;
 }
 .input-card {
 	padding: 5px 15px 5px 35px;
@@ -48,8 +49,8 @@
 	background: #fff url('ico-name2.png') no-repeat left 16px top 10px;
 }
 .input-exp_month, .input-exp_year {
-	padding: 5px 15px 5px 35px;
-	background: #fff url('ico-date2.png') no-repeat left 13px top 11px;
+	padding: 5px 10px;
+	/* background: #fff url('ico-date2.png') no-repeat left 13px top 11px; */
 }
 .input-email input {
 	padding: 6px 15px 6px 0px;
@@ -106,7 +107,7 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
 .footer {
- //display: block;
+ /* display: block; */
 }
 }
 
@@ -114,6 +115,9 @@
 }
 
 @media (max-width: 991px) {
+.dropdown {
+	font-size: 12px;
+}
 .card_block {
 	width: auto;
 	height: auto;
